@@ -1,0 +1,149 @@
+@media only screen and (min-width:768px) {
+    .personal-training {
+        flex-direction: row-reverse;
+    }
+
+    .personal-training .image {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .member-event {
+        flex-direction: row;
+    }
+
+    .strength-training {
+        flex-direction: row-reverse;
+    }
+
+    .strength-training .image {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    .group-class {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #menu-bar {
+        display: none;
+    }
+
+    .navigation-list {
+        display: flex;
+        list-style: none;
+        color: white;
+    }
+
+    .navigation-list li {
+        margin: 20px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bolder;
+        color: rgb(0, 136, 255);
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .navigation-list li:hover {
+        filter: drop-shadow(0 0 5px rgba(0, 255, 255, 0.5)) drop-shadow(0 0 10px rgba(0, 255, 255, 0.7)) drop-shadow(0 0 15px rgba(0, 255, 255, 0.9));
+    }
+
+    .navigation-list a {
+        text-decoration: none;
+        color: white;
+        color: rgb(0, 136, 255);
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .banner .container {
+        background: url("/video/mixkit-two-people-working-out-1318-full-hd.mp4");
+    }
+
+    .mob-video {
+        display: none;
+    }
+
+    .pc-video {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    header .container {
+        backdrop-filter: blur(10px);
+        justify-content: space-between;
+    }
+
+    .join {
+        border: 2px solid #07a9f8;
+    }
+
+    .offers .container {
+        margin: 25px;
+    }
+
+    .group-class {
+        justify-content: space-evenly;
+    }
+
+    .strength-training {
+        justify-content: space-evenly;
+    }
+
+    .member-event {
+        justify-content: space-evenly;
+    }
+
+    .personal-training {
+        justify-content: space-evenly;
+    }
+
+    .name {
+        margin: 5px;
+        width: calc(50% - 10px);
+    }
+
+    .email {
+        margin: 5px;
+        width: calc(50% - 10px);
+    }
+
+    .number {
+        margin: 5px;
+        width: calc(50% - 10px);
+    }
+
+    .field {
+        margin: 5px;
+        width: calc(50% - 10px);
+    }
+
+    .submit-button {
+        margin-top: 15px;
+        padding: 10px 20px 10px 20px;
+    }
+    .about-image{
+        width: 100%;
+        height: 500px;
+    }
+    .description img{
+        height: 100%;
+    }
+    .about .container p {
+        font-size: 20px;
+    }
+    .call-us{
+        position: initial;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .offer-1,
+    .offer-2,
+    .offer-3,
+    .offer-4 {
+        margin: 7px;
+    }
+}
